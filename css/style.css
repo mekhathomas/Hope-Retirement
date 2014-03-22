@@ -7,7 +7,7 @@
 	Author URI: http://themeforest.net/user/WEBNUS
 	Version: 1.4.0
 	
-------------------------------------------------------------------------*/
+------------------------------------------------------------------------*/@import
 @import url('./color-skins.css'); /* Import Color Skins Stylesheet */
 @import url('./base.css'); /* Import base stylesheet */
 @import url('./skeleton.css'); /* Import skeleton Stylesheet */
@@ -180,7 +180,8 @@ span.row-mn {  background:url(../images/row-m1.png) no-repeat right center; widt
 .qot-week h6.qot-title { text-transform:uppercase; margin:8px 0; color:#999; display:block; clear:both; font-size:10px; font-weight:bold;}
 .qot-week blockquote, .qot-week blockquote cite, .qot-week blockquote cite small { padding:0; margin:0; font-style:normal;}
 .qot-week blockquote:before { content:''; content: none;}
-.qot-week h3 { font-family:"Roboto Slab"; font-size:24px; }
+.qot-week h3 { font-family:"Roboto Slab"; font-size:24px;     color: #1db7e3;
+}
 .qot-week h3:before{ content:'\201C';}
 .qot-week h3:after{content:'\201D';}
 .qot-week h3:before, .qot-week h3:after { font-family:Times, serif; font-size:30px; margin:0 10px; font-weight:bold;}
